@@ -1,6 +1,6 @@
 #args = parameter that will pack all arguments into a tuple
 
-def add(*stuff):
+def add(*stuff): # you can name it whatever you want. Just use *.
     sum = 0
     stuff = list(stuff)
     stuff[0] = 0
