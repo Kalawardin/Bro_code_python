@@ -1,6 +1,5 @@
 import random
 
-
 while True:
     choices = ["R","P","S"]
     computer = random.choice(choices)
